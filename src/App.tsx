@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import SearchResultsPage from './pages/SearchResultsPage';
 import EmergencyBanner from './components/EmergencyBanner';
 import SafetyButton from './components/SafetyButton';
+import DenunciaPage from './pages/DenunciaPage';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<SearchResultsPage />} />
+        <Route path="/como-denunciar" element={<DenunciaPage />} />
+
       </Routes>
 
       <SafetyButton />

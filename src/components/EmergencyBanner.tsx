@@ -12,6 +12,10 @@ const EmergencyBanner: React.FC = () => {
         <span>Emergencias: </span>
         <a href="tel:911" className="font-bold hover:underline">911</a>
         <span className="mx-2">|</span>
+        <Phone className="w-5 h-5" />
+        <span>Lina para la Mujer: </span>
+        <a href="tel:911" className="font-bold hover:underline">114</a>
+        <span className="mx-2">|</span>
         <span>Línea Nacional: </span>
         <a href="tel:800-555-0111" className="font-bold hover:underline">800-555-0111</a>
       </div>

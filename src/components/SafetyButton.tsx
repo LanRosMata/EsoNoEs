@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const SafetyButton: React.FC = () => {
   const navigate = useNavigate();
   const handleQuickExit = () => {
-    navigate(`/search`);
+    navigate(`/como-denunciar`);
   };
 
   return (

@@ -34,7 +34,7 @@ const SearchResultsPage: React.FC = () => {
         to="/" 
         className="inline-flex items-center text-orange-600 hover:text-orange-700 mb-8"
       >
-        <ArrowLeft className="w-5 h-5 mr-2" />
+      <ArrowLeft className="w-5 h-5 mr-2" />
         Volver al inicio
       </Link>
 
