@@ -27,19 +27,19 @@ function HomePage() {
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
         <InfoCard
-          icon={<Shield className="w-8 h-8 text-orange-600" />}
-          title="Apoyo Confidencial"
-          description="Todos nuestros servicios son completamente confidenciales y seguros."
-        />
-        <InfoCard
           icon={<MapPin className="w-8 h-8 text-orange-600" />}
           title="Centros Cercanos"
           description="Encuentra centros de apoyo en tu área con servicios especializados."
         />
         <InfoCard
+          icon={<Shield className="w-8 h-8 text-orange-600" />}
+          title="Apoyo Incondicional"
+          description="Si no recibes ayuda adecuada llama a DIDADPAL: 2242-8641 || Poder Judicial: 2240-6000 || Ministerio Público: 2221 3534"
+        />
+        <InfoCard
           icon={<Phone className="w-8 h-8 text-orange-600" />}
           title="Ayuda 24/7"
-          description="Líneas de ayuda disponibles las 24 horas, todos los días."
+          description="Líneas de ayuda disponibles las 24 horas, todos los días: Emergencias 911 || Lina para la Mujer 114"
         />
       </div>
     </main>

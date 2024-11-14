@@ -1,34 +1,409 @@
 {
   "centers": [
-    {
-      "id": 1,
-      "city": "Tegucigalpa",
-      "name": "Centro de atención a mujeres",
-      "address": "Centro de atención a mujeres",
-      "phone": "000000",
-      "hours": "24/7",
-      "services": ["Apoyo psicológico", "Asesoría legal", "Atención médica"],
-      "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=640"
-    },
-    {
-      "id": 2,
-      "city": "Choluteca",
-      "name": "Centro de atención a mujeres",
-      "address": "Centro de atención a mujeres",
-      "phone": "000000",
-      "hours": "24/7",
-      "services": ["Apoyo psicológico", "Asesoría legal", "Atención médica"],
-      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=640"
-    },
-    {
-      "id": 3,
-      "city": "La Ceiba",
-      "name": "Centro de atención a mujeres",
-      "address": "Centro de atención a mujeres",
-      "phone": "000000",
-      "hours": "24/7",
-      "services": ["Apoyo psicológico", "Asesoría legal", "Atención médica"],
-      "image": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=640"
-    }
+      {
+        "id": 1,
+        "city": "Tegucigalpa",
+        "name": "Juzgado de Letras de lo Penal",
+        "address": "Palacio de Justicia, Centro Cívico Gubernamental",
+        "phone": "+504 2221-3099",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Atención de casos penales", "Audiencias", "Emisión de resoluciones"]
+      },
+      {
+        "id": 2,
+        "city": "Tegucigalpa",
+        "name": "Juzgado de Letras de la Niñez y la Adolescencia",
+        "address": "Colonia Miraflores, Tegucigalpa",
+        "phone": "+504 2222-5151",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Protección de menores", "Adopciones", "Casos de violencia intrafamiliar"]
+      },
+      {
+        "id": 3,
+        "city": "Tegucigalpa",
+        "name": "Juzgado de Letras de Familia",
+        "address": "Boulevard Morazán, Tegucigalpa",
+        "phone": "+504 2221-1010",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Divorcios", "Pensiones alimenticias", "Custodia de menores"]
+      },
+      {
+        "id": 4,
+        "city": "Tegucigalpa",
+        "name": "Juzgado de Letras Contencioso Administrativo",
+        "address": "Colonia Lomas del Guijarro, Tegucigalpa",
+        "phone": "+504 2239-8080",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Resolución de conflictos entre ciudadanos y la administración pública"]
+      },
+      {
+        "id": 5,
+        "city": "Tegucigalpa",
+        "name": "Juzgado de Paz",
+        "address": "Varios puntos en la ciudad",
+        "phone": "Varía según la ubicación",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía"]
+      },
+      {
+        "id": 6,
+        "city": "San Pedro Sula",
+        "name": "Juzgado de Letras de lo Penal",
+        "address": "Barrio Suyapa, San Pedro Sula",
+        "phone": "+504 2552-2525",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Atención de casos penales", "Audiencias", "Emisión de resoluciones"]
+      },
+      {
+        "id": 7,
+        "city": "San Pedro Sula",
+        "name": "Juzgado de Letras de la Niñez y la Adolescencia",
+        "address": "Colonia Trejo, San Pedro Sula",
+        "phone": "+504 2553-3535",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Protección de menores", "Adopciones", "Casos de violencia intrafamiliar"]
+      },
+      {
+        "id": 8,
+        "city": "San Pedro Sula",
+        "name": "Juzgado de Letras de Familia",
+        "address": "Barrio Río de Piedras, San Pedro Sula",
+        "phone": "+504 2550-0505",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Divorcios", "Pensiones alimenticias", "Custodia de menores"]
+      },
+      {
+        "id": 9,
+        "city": "San Pedro Sula",
+        "name": "Juzgado de Letras Contencioso Administrativo",
+        "address": "Colonia Jardines del Valle, San Pedro Sula",
+        "phone": "+504 2557-7575",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Resolución de conflictos entre ciudadanos y la administración pública"]
+      },
+      {
+        "id": 10,
+        "city": "San Pedro Sula",
+        "name": "Juzgado de Paz",
+        "address": "Varios puntos en la ciudad",
+        "phone": "Varía según la ubicación",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía"]
+      },
+      {
+        "id": 11,
+        "city": "La Ceiba",
+        "name": "Juzgado de Letras de lo Penal",
+        "address": "Barrio La Isla, La Ceiba",
+        "phone": "+504 2442-4242",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Atención de casos penales", "Audiencias", "Emisión de resoluciones"]
+      },
+      {
+        "id": 12,
+        "city": "La Ceiba",
+        "name": "Juzgado de Letras de la Niñez y la Adolescencia",
+        "address": "Colonia El Naranjal, La Ceiba",
+        "phone": "+504 2443-3443",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Protección de menores", "Adopciones", "Casos de violencia intrafamiliar"]
+      },
+      {
+        "id": 13,
+        "city": "La Ceiba",
+        "name": "Juzgado de Letras de Familia",
+        "address": "Barrio Mejía, La Ceiba",
+        "phone": "+504 2440-0440",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Divorcios", "Pensiones alimenticias", "Custodia de menores"]
+      },
+      {
+        "id": 14,
+        "city": "La Ceiba",
+        "name": "Juzgado de Letras Contencioso Administrativo",
+        "address": "Colonia La Esperanza, La Ceiba",
+        "phone": "+504 2447-7447",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Resolución de conflictos entre ciudadanos y la administración pública"]
+      },
+      {
+        "id": 15,
+        "city": "La Ceiba",
+        "name": "Juzgado de Paz",
+        "address": "Varios puntos en la ciudad",
+        "phone": "Varía según la ubicación",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía"]
+      },
+      {
+        "id": 16,
+        "city": "Choluteca",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Choluteca",
+        "phone": "+504 2782-2222",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Violencia doméstica"]
+      },
+      {
+        "id": 17,
+        "city": "Comayagua",
+        "name": "Juzgado de Paz",
+        "address": "Barrio La Merced, Comayagua",
+        "phone": "+504 2772-2772",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Asistencia legal gratuita"]
+      },
+      {
+        "id": 18,
+        "city": "Danlí",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Danlí",
+        "phone": "+504 2792-2292",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Asuntos de familia"]
+      },
+      {
+        "id": 19,
+        "city": "Juticalpa",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Juticalpa",
+        "phone": "+504 2783-3383",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Trámites legales"]
+      },
+      {
+        "id": 20,
+        "city": "Santa Rosa de Copán",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Santa Rosa de Copán",
+        "phone": "+504 2662-2262",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Asesoría legal"]
+      },
+      {
+        "id": 21,
+        "city": "Siguatepeque",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Siguatepeque",
+        "phone": "+504 2773-3373",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Resolución de conflictos"]
+      },
+      {
+        "id": 22,
+        "city": "Tela",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Tela",
+        "phone": "+504 2448-8448",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Asuntos comunitarios"]
+      },
+      {
+        "id": 23,
+        "city": "Tocoa",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Tocoa",
+        "phone": "+504 2445-5445",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Atención ciudadana"]
+      },
+      {
+        "id": 24,
+        "city": "Yoro",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Yoro",
+        "phone": "+504 2784-4484",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Justicia de paz"]
+      },
+      {
+        "id": 25,
+        "city": "Olanchito",
+        "name": "Juzgado de Paz",
+        "address": "Barrio El Centro, Olanchito",
+        "phone": "+504 2785-5585",
+        "hours": "Lunes a Viernes, 8:00 AM - 4:00 PM",
+        "services": ["Mediación", "Conciliación", "Casos de menor cuantía", "Servicios legales"]
+      },
+      {
+        "id": 26,
+        "city": "Tegucigalpa",
+        "name": "Posta Policial El Manchen",
+        "address": "Colonia El Manchen, Tegucigalpa",
+        "phone": "+504 2220-7273",
+        "hours": "24/7",
+        "services": ["Recepción de denuncias", "Atención a víctimas de violencia", "Prevención del delito"]
+      },
+      {
+        "id": 27,
+        "city": "Tegucigalpa",
+        "name": "Posta Policial Kennedy",
+        "address": "Colonia Kennedy, Tegucigalpa",
+        "phone": "+504 2228-4800",
+        "hours": "24/7",
+        "services": ["Seguridad ciudadana", "Patrullaje", "Investigación de delitos"]
+      },
+      {
+        "id": 28,
+        "city": "Tegucigalpa",
+        "name": "Posta Policial El Hatillo",
+        "address": "El Hatillo, Tegucigalpa",
+        "phone": "+504 2211-8332",
+        "hours": "24/7",
+        "services": ["Control de tráfico", "Mediación de conflictos", "Atención de emergencias"]
+      },
+      {
+        "id": 29,
+        "city": "San Pedro Sula",
+        "name": "Posta Policial Chamelecón",
+        "address": "Sector Chamelecón, San Pedro Sula",
+        "phone": "+504 2558-8558",
+        "hours": "24/7",
+        "services": ["Prevención de la violencia", "Atención a la juventud", "Programas comunitarios"]
+      },
+      {
+        "id": 30,
+        "city": "San Pedro Sula",
+        "name": "Posta Policial Rivera Hernández",
+        "address": "Colonia Rivera Hernández, San Pedro Sula",
+        "phone": "+504 2556-6556",
+        "hours": "24/7",
+        "services": ["Combate al narcotráfico", "Control de pandillas", "Seguridad en el transporte público"]
+      },
+      {
+        "id": 31,
+        "city": "San Pedro Sula",
+        "name": "Posta Policial Satélite",
+        "address": "Sector Satélite, San Pedro Sula",
+        "phone": "+504 2559-9559",
+        "hours": "24/7",
+        "services": ["Protección a la niñez", "Atención a mujeres", "Rescate de víctimas"]
+      },
+      {
+        "id": 32,
+        "city": "La Ceiba",
+        "name": "Posta Policial Bonitillo",
+        "address": "Barrio Bonitillo, La Ceiba",
+        "phone": "+504 2441-1441",
+        "hours": "24/7",
+        "services": ["Vigilancia comunitaria", "Mediación de conflictos", "Atención a personas mayores"]
+      },
+      {
+        "id": 33,
+        "city": "La Ceiba",
+        "name": "Posta Policial El Centro",
+        "address": "Barrio El Centro, La Ceiba",
+        "phone": "+504 2440-0440",
+        "hours": "24/7",
+        "services": ["Seguridad en zonas turísticas", "Prevención de robos", "Atención a turistas"]
+      },
+      {
+        "id": 34,
+        "city": "La Ceiba",
+        "name": "Posta Policial Masca",
+        "address": "Colonia Masca, La Ceiba",
+        "phone": "+504 2442-2442",
+        "hours": "24/7",
+        "services": ["Control de multitudes", "Seguridad en eventos públicos", "Primeros auxilios"]
+      },
+      {
+        "id": 35,
+        "city": "Choluteca",
+        "name": "Posta Policial Choluteca",
+        "address": "Barrio El Centro, Choluteca",
+        "phone": "+504 2782-1782",
+        "hours": "24/7",
+        "services": ["Recepción de denuncias", "Atención a víctimas", "Investigación de delitos"]
+      },
+      {
+        "id": 36,
+        "city": "Comayagua",
+        "name": "Posta Policial Comayagua",
+        "address": "Barrio La Merced, Comayagua",
+        "phone": "+504 2772-2772",
+        "hours": "24/7",
+        "services": ["Seguridad ciudadana", "Patrullaje", "Prevención del delito"]
+      },
+      {
+        "id": 37,
+        "city": "Danlí",
+        "name": "Posta Policial Danlí",
+        "address": "Barrio El Centro, Danlí",
+        "phone": "+504 2792-2292",
+        "hours": "24/7",
+        "services": ["Control de tráfico", "Mediación de conflictos", "Atención de emergencias"]
+      },
+      {
+        "id": 38,
+        "city": "Juticalpa",
+        "name": "Posta Policial Juticalpa",
+        "address": "Barrio El Centro, Juticalpa",
+        "phone": "+504 2783-3383",
+        "hours": "24/7",
+        "services": ["Prevención de la violencia", "Atención a la juventud", "Programas comunitarios"]
+      },
+      {
+        "id": 39,
+        "city": "Santa Rosa de Copán",
+        "name": "Posta Policial Santa Rosa de Copán",
+        "address": "Barrio El Centro, Santa Rosa de Copán",
+        "phone": "+504 2662-2262",
+        "hours": "24/7",
+        "services": ["Combate al narcotráfico", "Control de pandillas", "Seguridad en el transporte público"]
+      },
+      {
+        "id": 40,
+        "city": "Siguatepeque",
+        "name": "Posta Policial Siguatepeque",
+        "address": "Barrio El Centro, Siguatepeque",
+        "phone": "+504 2773-3373",
+        "hours": "24/7",
+        "services": ["Protección a la niñez", "Atención a mujeres", "Rescate de víctimas"]
+      },
+      {
+        "id": 41,
+        "city": "Juticalpa, Olancho",
+        "name": "Posta Policial Juticalpa",
+        "address": "Barrio El Centro, Juticalpa",
+        "phone": "+504 2783-3383",
+        "hours": "24/7",
+        "services": ["Recepción de denuncias", "Atención a víctimas de violencia", "Prevención del delito", "Seguridad ciudadana", "Patrullaje"]
+      },
+      {
+        "id": 42,
+        "city": "Catacamas, Olancho",
+        "name": "Posta Policial Catacamas",
+        "address": "Barrio El Centro, Catacamas",
+        "phone": "+504 2794-2294",
+        "hours": "24/7",
+        "services": ["Investigación de delitos", "Control de tráfico", "Mediación de conflictos", "Atención de emergencias"]
+      },
+      {
+        "id": 43,
+        "city": "Campamento, Olancho",
+        "name": "Posta Policial Campamento",
+        "address": "Barrio El Centro, Campamento",
+        "phone": "+504 2785-5585",
+        "hours": "24/7",
+        "services": ["Prevención de la violencia", "Atención a la juventud", "Programas comunitarios"]
+      },
+      {
+        "id": 44,
+        "city": "Dulce Nombre de Culmí, Olancho",
+        "name": "Posta Policial Dulce Nombre de Culmí",
+        "address": "Barrio El Centro, Dulce Nombre de Culmí",
+        "phone": "+504 2787-7787",
+        "hours": "24/7",
+        "services": ["Combate al narcotráfico", "Control de pandillas", "Seguridad en el transporte público"]
+      },
+      {
+        "id": 45,
+        "city": "San Francisco de la Paz, Olancho",
+        "name": "Posta Policial San Francisco de la Paz",
+        "address": "Barrio El Centro, San Francisco de la Paz",
+        "phone": "+504 2789-9989",
+        "hours": "24/7",
+        "services": ["Protección a la niñez", "Atención a mujeres", "Rescate de víctimas"]
+      }
   ]
 }

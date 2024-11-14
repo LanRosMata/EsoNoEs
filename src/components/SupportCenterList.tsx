@@ -27,18 +27,12 @@ const SupportCenterList: React.FC<SupportCenterListProps> = ({ centers, isLoadin
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       {centers.map(center => (
-        <div key={center.id} className="bg-orange-50 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-orange-100">
-          <div className="h-48 overflow-hidden">
-            <img
-              src={center.image}
-              alt={center.name}
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <div key={center.id} className="bg-orange-100 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-orange-100">
           <div className="p-6">
-            <h3 className="text-xl font-semibold text-orange-900 mb-3">
+            <h3 className="text-3xl font-extrabold text-orange-900 mb-3">
               {center.name}
             </h3>
+            <p className="mb-4" > <span className="font-semibold" >Dirección:</span> {center.address}</p>
             
             <div className="space-y-2 mb-4">
               <div className="flex items-center gap-2 text-orange-800">
