@@ -27,7 +27,7 @@ const SupportCenterList: React.FC<SupportCenterListProps> = ({ centers, isLoadin
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       {centers.map(center => (
-        <div key={center.id} className="bg-orange-100 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-orange-100">
+        <div key={center.id} className="bg-orange-200 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 border border-orange-100">
           <div className="p-6">
             <h3 className="text-3xl font-extrabold text-orange-900 mb-3">
               {center.name}

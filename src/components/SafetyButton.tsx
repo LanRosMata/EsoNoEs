@@ -12,7 +12,7 @@ const SafetyButton: React.FC = () => {
   return (
     <button
       onClick={handleQuickExit}
-      className="fixed bottom-6 right-6 bg-orange-600 hover:bg-orange-700 
+      className="fixed text-xl bottom-6 right-6 bg-orange-600 hover:bg-orange-700 
                  text-white px-6 py-3 rounded-full shadow-lg 
                  flex items-center gap-2 transition-colors duration-300
                  border-2 border-orange-400"

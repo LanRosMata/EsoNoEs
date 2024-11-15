@@ -34,6 +34,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
         <p className="text-sm text-orange-700 mt-2 text-center">
           Ejemplo: "Tegucigalpa" o "La Ceiba"
         </p>
+        <div className="flex justify-center mt-5 ">
+        <button type="submit" className=" bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+            Buscar
+        </button>
+        </div>
       </form>
     </div>
   );

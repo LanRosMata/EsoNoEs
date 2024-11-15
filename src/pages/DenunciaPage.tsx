@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { BottonCard } from '../components/BottonCard';
 
 
 const DenunciaPage: React.FC = () => {
@@ -33,7 +33,7 @@ const DenunciaPage: React.FC = () => {
         <PasosCard 
           numero={3}
           titulo="Ideas Claras"
-          description="Respira profundo, Ceunta que te paso, no omitas ningún detalle. Lleva el nombre de tu agresor o agresores y si tienes alguna prueba física o exámenes médicos, no olvides presentarlos. Presenta con exactitud el lugar donde ocurrieron los hechos y si existe algún testigo."
+          description="Respira profundo, Cuenta que te paso, no omitas ningún detalle. Lleva el nombre de tu agresor o agresores. Presenta con exactitud el lugar donde ocurrieron los hechos y si existe algún testigo."
           botonTxt="Buscar"
         /> 
 
@@ -47,7 +47,14 @@ const DenunciaPage: React.FC = () => {
         <PasosCard 
           numero={5}
           titulo="Que no te callen"
-          description="Si sientes que no te brindaron la ayuda que necesitabas o hicieron de menos tu denuncia, también puedes denunciar, nadie te puede callar. Denuncia a DIDADPAL: 2242-8641 || Poder Judicial: 2240-6000 || Ministerio Público: 2221 3534"
+          description="Si sientes que no te brindaron la ayuda que necesitabas o hicieron de menos tu denuncia, también puedes denunciar, nadie te puede callar. Denuncia a DIDADPAL: 2242-8641 || Poder Judicial: 2240-6000 || Ministerio Público: 2221 3534."
+        /> 
+
+        <PasosCard 
+          numero={6}
+          titulo="Si no te escuchan"
+          description="Si en los juzgados no te dan respuesta inmediata, acude a las oficinas de Inspedtoría de Tribunales dentro de los mismos juzgados e interpon tu denuncia. Y si aun así no obtienes respuesta esperada, pudes acudir a las organizaciones de muejeres para que te acompañen."
+          botonTxt="Buscar"
         /> 
 
 
@@ -63,6 +70,7 @@ interface PasosCardProps {
   titulo: string;
   description: string;
   botonTxt?: string;
+  enlaceBoton?: string;
 }
 
 function PasosCard({ numero, titulo, description,botonTxt = "" }: PasosCardProps) {
@@ -75,35 +83,14 @@ function PasosCard({ numero, titulo, description,botonTxt = "" }: PasosCardProps
                 {titulo}</h3>
               <p className="text-lg font-semibold" > {description}</p>
             </div>
-            <BotonPasosCard nombre={botonTxt} />
+            <div className="absolute -bottom-5 right-8">
+              <BottonCard nombre={botonTxt} enlace='search' />
+            </div>
           </div>
         </article>
 
 )}
 
-
-interface BotonPasosProps {
-  nombre: string;
-}
-
-function BotonPasosCard({ nombre } : BotonPasosProps) {
-  if (nombre == "") return
-  const navigate = useNavigate();
-  const handleQuickExit = () => {
-    navigate(`/`);
-  };
-
-  return (
-    <div className="absolute -bottom-5 right-8">
-              <button
-                  onClick={handleQuickExit}
-                  className=" bottom-6 right-6 bg-orange-600 hover:bg-orange-700 
-                      text-white font-semibold py-2 px-4 rounded mt-8">
-                  {nombre}
-              </button>
-            </div>
-  )
-}
 
 export default DenunciaPage;
 

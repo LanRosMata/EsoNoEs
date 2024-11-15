@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Heart, Phone, Shield, MapPin } from 'lucide-react';
 import SearchBar from '../components/SearchBar';
+import { BottonCard } from '../components/BottonCard';
 
 function HomePage() {
   const navigate = useNavigate();
