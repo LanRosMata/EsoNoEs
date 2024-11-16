@@ -15,46 +15,47 @@ const DenunciaPage: React.FC = () => {
         Volver al inicio
       </Link>
       <h1 className="text-6xl font-bold text-orange-950 mb-4 text-center" >¿Cómo Denunciar?</h1>
-      <section className=" mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 mb-16" >
+      <section className=" mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 mb-24" >
 
         <PasosCard 
           numero={1}
           titulo="Buscan un Centro de Apoyo"
           description="Puedes realizar tu denuncia en la posta policial más cercana, en los juzgados de paz, alcaldías y otras organizaciones. Busca aquí el lugar más cercano."
           botonTxt="Buscar"
+          enlaceBoton=''
         /> 
 
         <PasosCard 
           numero={2}
           titulo="No te olvides de ti"
-          description="Antes de hacer tu denuncia, recuerda llevar contigo una identificación tuya. Puede ser un DNI, partida de nacimiento, licencia de conducir o pasaporte. Es importante que lleves muy clara la dirección de tú residencial. "
+          description="Antes de hacer tu denuncia, recuerda llevar contigo una identificación. Puede ser un DNI, partida de nacimiento, licencia de conducir, pasaporte o carnet de recidente. Es importante que lleves muy clara la dirección de tú residencial. "
         /> 
 
         <PasosCard 
           numero={3}
           titulo="Ideas Claras"
-          description="Respira profundo, Cuenta que te paso, no omitas ningún detalle. Lleva el nombre de tu agresor o agresores. Presenta con exactitud el lugar donde ocurrieron los hechos y si existe algún testigo."
+          description="Respira profundo, Cuenta que te paso, no omitas nada. Lleva el nombre de tu agresor o agresores. Recuerda el lugar donde ocurrieron los hechos y si existe algún testigo. Cada detalle cuenta."
           botonTxt="Buscar"
         /> 
 
         <PasosCard 
           numero={4}
           titulo="No se acaba hasta que se acaba"
-          description="Recopila toda la documentación e información posible de tu denuncia. Lleva un seguimiento de tu denuncia."
-          botonTxt="Buscar"
+          description="Recopila toda la documentación e información posible de tu denuncia. Lleva un seguimiento de tu denuncia hasta que se resuelva. No temas y pregunta como va tu caso y que sigue luego."
+          botonTxt="Más"
         /> 
 
         <PasosCard 
           numero={5}
           titulo="Que no te callen"
-          description="Si sientes que no te brindaron la ayuda que necesitabas o hicieron de menos tu denuncia, también puedes denunciar, nadie te puede callar. Denuncia a DIDADPAL: 2242-8641 || Poder Judicial: 2240-6000 || Ministerio Público: 2221 3534."
+          description="Si sientes que no te brindaron la ayuda que necesitabas o hicieron de menos tu denuncia, también puedes denunciarlo, nadie te puede callar. Llama a DIDADPAL: 2242-8641 || Poder Judicial: 2240-6000 || Ministerio Público: 2221 3534."
         /> 
 
         <PasosCard 
           numero={6}
           titulo="Si no te escuchan"
-          description="Si en los juzgados no te dan respuesta inmediata, acude a las oficinas de Inspedtoría de Tribunales dentro de los mismos juzgados e interpon tu denuncia. Y si aun así no obtienes respuesta esperada, pudes acudir a las organizaciones de muejeres para que te acompañen."
-          botonTxt="Buscar"
+          description="Si en los juzgados no te dan respuesta inmediata, acude a las oficinas de Inspectoría de Tribunales dentro de los mismos juzgados e interpon tu denuncia. Y si aun así no obtienes respuesta, pudes acudir a las organizaciones de muejeres para que te acompañen."
+          botonTxt="Busca ayuda"
         /> 
 
 
@@ -71,9 +72,10 @@ interface PasosCardProps {
   description: string;
   botonTxt?: string;
   enlaceBoton?: string;
+
 }
 
-function PasosCard({ numero, titulo, description,botonTxt = "" }: PasosCardProps) {
+function PasosCard({ numero, titulo, description,botonTxt = "" , enlaceBoton = "",  }: PasosCardProps) {
   return (
     <article className="relative bg-orange-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-orange-100">
           <div className="flex items-center  gap-4" >
@@ -84,7 +86,7 @@ function PasosCard({ numero, titulo, description,botonTxt = "" }: PasosCardProps
               <p className="text-lg font-semibold" > {description}</p>
             </div>
             <div className="absolute -bottom-5 right-8">
-              <BottonCard nombre={botonTxt} enlace='search' />
+              <BottonCard nombre={botonTxt} enlace={enlaceBoton}  />
             </div>
           </div>
         </article>

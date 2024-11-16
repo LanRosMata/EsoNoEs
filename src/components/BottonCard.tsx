@@ -7,7 +7,7 @@ interface BottonCardProps {
   tipo?: boolean
 }
 
-export function BottonCard ({ nombre, enlace, tipo } : BottonCardProps) {
+export function BottonCard ({ nombre, enlace = "/", tipo = false } : BottonCardProps) {
   if (nombre == "") return
   const navigate = useNavigate();
   const handleQuickExit = () => {
