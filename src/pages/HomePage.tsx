@@ -99,8 +99,8 @@ function HomePage() {
 
       </footer>
         <div className="text-center mb-6">
-          <p>Desarollado por Allan Rosales: arrrmatamoros@gmail.com</p>
-        </div>
+          <p>Desarrollado por Allan Rosales: arrrmatamoros@gmail.com</p>
+      </div>
       
     </>
   );

@@ -51,7 +51,7 @@ const SearchResultsPage: React.FC = () => {
       <SupportCenterList centers={centers} isLoading={isLoading} />
 
       <div className="text-center mb-6 mt-12">
-          <p>Desarollado por Allan Rosales: arrrmatamoros@gmail.com</p>
+          <p>Desarrollado por Allan Rosales: arrrmatamoros@gmail.com</p>
       </div>
       
     </main>
