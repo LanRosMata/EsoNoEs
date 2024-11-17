@@ -98,6 +98,10 @@ function HomePage() {
         </div>
 
       </footer>
+        <div className="text-center mb-6">
+          <p>Desarollado por Allan Rosales: arrrmatamoros@gmail.com</p>
+        </div>
+      
     </>
   );
 }

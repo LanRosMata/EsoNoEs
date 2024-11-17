@@ -59,7 +59,10 @@ const DenunciaPage: React.FC = () => {
         /> 
 
 
-        
+      <div className="text-center mb-6 mt-12">
+          <p>Desarollado por Allan Rosales: arrrmatamoros@gmail.com</p>
+      </div>
+      
       </section>
     </main>
   );
